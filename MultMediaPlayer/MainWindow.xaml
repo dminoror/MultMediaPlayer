@@ -1,0 +1,99 @@
+﻿<Window x:Class="MultMediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" FontSize="16" Loaded="Window_Loaded_1" AllowDrop="True" Drop="Files_Drop">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Margin="5" Content="＜" Click="Track1Prev_Click"/>
+                        <TextBlock x:Name="txtTrack1" Grid.Column="1" Text="kare.mp3" VerticalAlignment="Center"/>
+                        <Button Grid.Column="2" Margin="5" Content="＞" Click="Track1Next_Click"/>
+                    </Grid>
+                    <Button Grid.Row="1" Margin="20, 5" Click="Track1Status_Click" >
+                        <ContentControl>
+                            <Image x:Name="imageTrack1Status" Source="Image/play.png"/>
+                        </ContentControl>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Margin="5" Content="＜" Click="Track2Prev_Click"/>
+                        <TextBlock x:Name="txtTrack2" Grid.Column="1" Text="kare.mp3" VerticalAlignment="Center"/>
+                        <Button Grid.Column="2" Margin="5" Content="＞" Click="Track2Next_Click"/>
+                    </Grid>
+                    <Button Grid.Row="1" Margin="20, 5" Click="Track2Status_Click">
+                        <ContentControl>
+                            <Image x:Name="imageTrack2Status" Source="Image/play.png"/>
+                        </ContentControl>
+                    </Button>
+                </Grid>
+            </Border>
+            <Border Grid.Row="2" BorderBrush="Gray" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Margin="5" Content="＜" Click="Track3Prev_Click"/>
+                        <TextBlock x:Name="txtTrack3" Grid.Column="1" Text="kare.mp3" VerticalAlignment="Center"/>
+                        <Button Grid.Column="2" Margin="5" Content="＞" Click="Track3Next_Click"/>
+                    </Grid>
+                    <Button Grid.Row="1" Margin="20, 5" Click="Track3Status_Click">
+                        <ContentControl>
+                            <Image x:Name="imageTrack3Status" Source="Image/play.png"/>
+                        </ContentControl>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Margin="20" Content="Stop All" Click="StopAll_Click"/>
+            <Button Grid.Row="1" Margin="20" Click="StatusAll_Click">
+                <ContentControl>
+                    <Image x:Name="imageAllStatus" Source="Image/pause.png"/>
+                </ContentControl>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

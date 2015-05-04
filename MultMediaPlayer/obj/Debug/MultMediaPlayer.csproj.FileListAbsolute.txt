@@ -1,0 +1,15 @@
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\bin\Debug\MultMediaPlayer.exe.config
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\bin\Debug\MultMediaPlayer.exe
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\bin\Debug\MultMediaPlayer.pdb
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.csproj.ResolveComReference.cache
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MainWindow.baml
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\App.g.cs
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer_MarkupCompile.cache
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.g.resources
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.Properties.Resources.resources
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.csproj.GenerateResource.Cache
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.exe
+C:\Users\DoubleLight\Desktop\MultMediaPlayer\MultMediaPlayer\obj\Debug\MultMediaPlayer.pdb
